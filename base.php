@@ -21,6 +21,7 @@ use Roots\Sage\Wrapper;
     		<div class="wrap container" role="document">
       			<div class="content row">
         			<main class="main">
+					<?php get_template_part('templates/ribbon'); ?>
           				<?php include Wrapper\template_path(); ?>
         			</main><!-- /.main -->
         			<?php if (Setup\display_sidebar()) : ?>
