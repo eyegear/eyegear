@@ -18,7 +18,7 @@
 		<script>
 			// STEP 2: create animation object (with a duration of half a second)
 			var tween = TweenMax.to('#brand-animation', 0.5, {
-				letterSpacing: 10px,
+				letterSpacing: '10px',
 				scale: 1.5,
 				rotation: 360
 			});
