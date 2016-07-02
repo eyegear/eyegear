@@ -13,8 +13,8 @@
 			],
 			"main": true
 		},
-		"animation.gsap.js": {
-			"files": [ "bower_components/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js" ]
+		"scrollmagic.js": {
+			"bower": [ "scrollmagic" ]
 		},
 		"customizer.js": {
 			"files": [ "scripts/customizer.js" ]
