@@ -23,8 +23,11 @@
 	})
 
 	// STEP 4: add our animation object to the scene object
-		.setTween(tween)
+		scene.setTween(tween)
 		
 	// STEP 5: add our scene object to the scrollmagic controller
-		.addTo(controller);
+		scene.addTo(controller);
+
+	// OPTIONAL: add debug indicators fixed on right side
+		scene.addIndicators();
 })();
