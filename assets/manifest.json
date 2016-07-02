@@ -16,6 +16,9 @@
 		"scrollmagic.js": {
 			"bower": [ "scrollmagic" ]
 		},
+		"gsap.js": {
+			"bower": [ "gsap" ]
+		},
 		"customizer.js": {
 			"files": [ "scripts/customizer.js" ]
 		},

@@ -44,6 +44,7 @@
 		"scrollmagic": {
 			"main": [
 				"./scrollmagic/uncompressed/ScrollMagic.js",
+				"./scrollmagic/uncompressed/plugins/debug.addIndicators.js",
 				"./scrollmagic/uncompressed/plugins/animation.gsap.js"
       			]
   		}
