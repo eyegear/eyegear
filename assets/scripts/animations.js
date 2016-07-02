@@ -20,10 +20,10 @@
 	// STEP 3: create scene object (and select scene options)
 		var scene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-steps"
-	})
+	});
 
 	// STEP 4: add our animation object to the scene object
-		scene.setTween(tween)
+		scene.setTween(tween);
 		
 	// STEP 5: add our scene object to the scrollmagic controller
 		scene.addTo(controller);
