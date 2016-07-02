@@ -13,6 +13,9 @@
 			],
 			"main": true
 		},
+		"animation.gsap.js": {
+			"files": [ "scripts/animation.gsap.js" ]
+		},
 		"customizer.js": {
 			"files": [ "scripts/customizer.js" ]
 		},
@@ -21,6 +24,6 @@
 		}
 	},
 	"config": {
-		"devUrl": "http://www.eyegear.press"
+		"devUrl": "http://www.eyegear.site"
 	}
 }
