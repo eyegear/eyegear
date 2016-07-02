@@ -11,7 +11,7 @@
 	var controller = new ScrollMagic.Controller();
 
 	// STEP 2: create animation object (with a duration of half a second)
-	var tween = TweenLite.to('#brand-animation', 0.5, {
+	var tween = TweenMax.to('#brand-animation', 0.5, {
 		letterSpacing: '10px',
 		scale: 1.5,
 		rotation: 360
