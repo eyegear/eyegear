@@ -5,7 +5,7 @@
 
 // Implement Ribbon Animations when the DOM is ready
 
-$(function() {
+(function() {
 
 	// STEP 1: create / initialize the scrollmagic controller
 	var controller = new ScrollMagic.Controller();
@@ -27,4 +27,4 @@ $(function() {
 		
 	// STEP 5: add our scene object to the scrollmagic controller
 		.addTo(controller);
-})(jQuery);
+})();
