@@ -102,7 +102,7 @@ function assets() {
   }
 
   wp_enqueue_script('gsap/js', Assets\asset_path('scripts/gsap.js'), [], null, false);
-  wp_enqueue_script('scrollmagic/js', Assets\asset_path('scripts/scrollmagic.js'), [gsap/js], null, false);
+  wp_enqueue_script('scrollmagic/js', Assets\asset_path('scripts/scrollmagic.js'), ['gsap/js'], null, false);
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
