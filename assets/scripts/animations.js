@@ -27,4 +27,4 @@ $(function() {
 		
 	// STEP 5: add our scene object to the scrollmagic controller
 		.addTo(controller);
-)();
+})();
