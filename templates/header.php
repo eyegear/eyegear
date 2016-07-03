@@ -4,5 +4,9 @@
     		<div id="animate-brand">
 			<a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
 		</div>
+		<div id="trigger-overlay" class="rotating-animation"></div>
+    		<div id="animate-overlay">
+			<div class="overlay"></div>
+		</div>
   	</div>
 </header>

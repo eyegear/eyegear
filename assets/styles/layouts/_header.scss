@@ -11,7 +11,13 @@
 		width: 100%;
 		text-align: center;
 		.scaling-animation {
+			position: absolute;
 			top: 55vh;
+		}
+		.overlay {
+			position: absolute;
+			z-index: 2;
+			background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/shades.png");
 		}
 		.brand {
 			font-family: 'Yanone Kaffeesatz';

@@ -20,7 +20,7 @@
 	// Implement Header Animations when the DOM is ready
 	var controller = new ScrollMagic.Controller();
 	var bannertween = TweenMax.to('#animate-brand', 0.5, {
-		scale: 1.2
+		scale: 0.8
 	});
 	var bannerscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-scale",
