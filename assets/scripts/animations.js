@@ -36,7 +36,6 @@
 	});
 	var ribbonscene = new ScrollMagic.Scene({
 		triggerElement: "#ribbon-trigger",
-		duration: 0 // Setting to zero makes the trigger act like a toggle
 	});
 	ribbonscene.setTween(ribbontween);
 	ribbonscene.addTo(controller);
