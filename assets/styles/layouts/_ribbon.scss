@@ -1,8 +1,6 @@
 .ribbon {
 	position: relative;
 	display: table;
-	background-color: $white;
-	background-image: url('https://s3.ap-northeast-2.amazonaws.com/eyegear/lightmesh.png') repeat center center;
 	width: 100%;
 	min-height: 10em;
 	.container {
@@ -10,6 +8,7 @@
 		display: table-cell;
 		vertical-align: middle;
 		background-color: $white;
+		background-image: url('https://s3.ap-northeast-2.amazonaws.com/eyegear/lightmesh.png') repeat center center;
 		width: 100%;
 		text-align: center;
 		.ribbon-text {
