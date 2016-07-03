@@ -1,6 +1,7 @@
 .ribbon {
 	position: relative;
 	display: table;
+	background: $white url('https://s3.ap-northeast-2.amazonaws.com/eyegear/lightmesh.png') repeat center center;
 	width: 100%;
 	min-height: 10em;
 	.container {
@@ -16,7 +17,7 @@
 			font-size: 2em;
 			text-transform: lowercase;
 			text-decoration: none;
-			text-shadow: $theme-dark-shadow;
+			text-shadow: $shadow;
 			color: $theme-dark;
 		}
 	}
