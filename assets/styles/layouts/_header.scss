@@ -10,6 +10,7 @@
 		background-color: $desert-yellow;
 		width: 100%;
 		text-align: center;
+		perspective: 1000;
 		.rotating-animation {
 			position: absolute;
 			top: 55vh;
@@ -21,6 +22,7 @@
 		.overlay {
 			position: absolute;
 			z-index: 2;
+			transform-style: preserve-3d;
 		}
 		.brand {
 			font-family: 'Yanone Kaffeesatz';
