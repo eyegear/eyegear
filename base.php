@@ -20,7 +20,9 @@ use Roots\Sage\Wrapper;
     		?>
 		<?php get_template_part('templates/ribbon'); ?>
 		<section id="catalog" class="dynamic-content">
-	          	<?php include Wrapper\template_path(); ?>
+			<div class="container">
+		          	<?php include Wrapper\template_path(); ?>
+			</div>
 		</section>
         	<?php if (Setup\display_sidebar()) : ?>
           		<aside class="sidebar">
