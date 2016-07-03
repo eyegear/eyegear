@@ -14,7 +14,6 @@
 	var tween = TweenMax.to('#brand-animation', 0.5, {
 		letterSpacing: '10px',
 		scale: 1.5,
-		rotation: 360
 	});
 
 	// STEP 3: create scene object (and select scene options)
