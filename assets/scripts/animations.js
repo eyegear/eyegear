@@ -11,13 +11,13 @@
 	var controller = new ScrollMagic.Controller();
 
 	// STEP 2: create animation object (with a duration of half a second)
-	var tween = TweenMax.to('#mainbanner', 0.5, {
-		scale: 1.1
+	var tween = TweenMax.to('#main-banner', 0.5, {
+		scale: 1.2
 	});
 
 	// STEP 3: create scene object (and select scene options)
 		var scene = new ScrollMagic.Scene({
-		triggerElement: "#trigger-brandscale"
+		triggerElement: "#trigger-scale"
 	});
 
 	// STEP 4: add our animation object to the scene object

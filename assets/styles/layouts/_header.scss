@@ -10,13 +10,17 @@
 		background-color: $desert-yellow;
 		width: 100%;
 		text-align: center;
+		.scaling-animation {
+			position: absolute;
+			top: 0;
+		}
 		.brand {
 			font-family: 'Yanone Kaffeesatz';
 			font-weight: 700;
 			font-size: 10em;
 			text-transform: uppercase;
 			text-decoration: none;
-			text-shadow: $theme-dark-shadow;
+			text-shadow: 1px 1px 1px $white;
 			color: $theme-dark;
 		}
 	}
