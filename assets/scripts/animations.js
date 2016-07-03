@@ -31,13 +31,13 @@
 	bannerscene.addIndicators({name: "1 (duration: 300)"});
 
 	// Implement Ribbon Animations when the DOM is ready
-	var ribbontween = TweenMax.to('#animate-ribbon', 0.5, {
-		letterSpacing: '10px',
+	var ribbontween = TweenMax.to('#animate-ribbon', 1.5, {
+		letterSpacing: '5px',
 	});
 	var ribbonscene = new ScrollMagic.Scene({
 		triggerElement: "#ribbon-trigger",
 	});
 	ribbonscene.setTween(ribbontween);
 	ribbonscene.addTo(controller);
-	ribbonscene.addIndicators({name: "2 (duration: 0)"});
+	ribbonscene.addIndicators({name: "2"});
 })();
