@@ -10,14 +10,17 @@
 		background-color: $desert-yellow;
 		width: 100%;
 		text-align: center;
-		.scaling-animation {
+		.rotating-animation {
 			position: absolute;
 			top: 55vh;
+		}
+		.scaling-animation {
+			position: absolute;
+			top: 53vh;
 		}
 		.overlay {
 			position: absolute;
 			z-index: 2;
-			background: #00ff00 url("https://s3.ap-northeast-2.amazonaws.com/eyegear/shades.png") center 100px 100px no-repeat border-box border-box fixed; 
 		}
 		.brand {
 			font-family: 'Yanone Kaffeesatz';
