@@ -17,7 +17,7 @@
 		.overlay {
 			position: absolute;
 			z-index: 2;
-			background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/shades.png");
+			background: #00ff00 url("https://s3.ap-northeast-2.amazonaws.com/eyegear/shades.png") center 100px 100px no-repeat border-box border-box fixed; 
 		}
 		.brand {
 			font-family: 'Yanone Kaffeesatz';
