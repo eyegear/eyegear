@@ -32,7 +32,7 @@
 
 	// Implement Header Overlay Animation when the DOM is ready
 	var overlaytween = TweenMax.to('#animate-overlay', 0.5, {
-		rotateX: '180deg' 
+		scale: 0.8
 	});
 	var overlayscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-overlay",
@@ -48,7 +48,7 @@
 	});
 	var ribbonscene = new ScrollMagic.Scene({
 		triggerElement: "#ribbon-trigger",
-		duration: 20 // Let the animation occur over 20 pixels
+		duration: 40 // Let the animation occur over 40 pixels
 	});
 	ribbonscene.setTween(ribbontween);
 	ribbonscene.addTo(controller);
