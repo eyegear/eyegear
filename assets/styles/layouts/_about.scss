@@ -11,14 +11,14 @@
                 width: 100%;
                 padding: 2em 0;
                 text-align: center;
-                .ribbon-text {
+                .about-text {
                         font-family: 'Yanone Kaffeesatz';
                         font-weight: 700;
                         font-size: 2em;
                         text-transform: lowercase;
                         text-shadow: $shadow;
                         line-height: 2em;
-                        color: $theme-dark;
+                        color: $white;
                         h1 {
                                 font-family: 'Ravi Prakash';
                                 font-weight: 400;
@@ -26,7 +26,7 @@
                         }
                         a {
                                 text-decoration: none;
-                                color: $theme-dark;
+                                color: $white;
                         }
                 }
         }
