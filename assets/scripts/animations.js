@@ -17,6 +17,9 @@
 	// STEP 5: add our scene object to the scrollmagic controller
 	// OPTIONAL: add debug indicators fixed on right side
 
+
+
+
 	// Implement Banner Animation when the DOM is ready
 	var controller = new ScrollMagic.Controller();
 	var bannertween = TweenMax.to('#animate-brand', 0.5, {
@@ -29,6 +32,9 @@
 	bannerscene.setTween(bannertween);
 	bannerscene.addTo(controller);
 	bannerscene.addIndicators({name: "1 (duration: 300)"});
+
+
+
 
 	// Implement Header Overlay Animation when the DOM is ready
 	var overlaytween = TweenMax.to('#animate-overlay', 0.5, {
@@ -43,9 +49,13 @@
 	overlayscene.addTo(controller);
 	overlayscene.addIndicators({name: "2 (duration: 300)"});
 
+
+
+
 	// Implement Ribbon Animations when the DOM is ready
 	var ribbontween = TweenMax.to('#animate-ribbon', 1.5, {
-		letterSpacing: '5px'
+		letterSpacing: '5px',
+		scale: 0.75
 	});
 	var ribbonscene = new ScrollMagic.Scene({
 		triggerElement: "#ribbon-trigger",
