@@ -55,9 +55,9 @@
 
 	// Implement Ribbon Animations when the DOM is ready
 	var ribbontween = TweenMax.to('#animate-ribbon', 1.5, {
-		letterSpacing: '5px',
-		rotationX: -180,
-		scale: 0.75
+		letterSpacing: '2.5px',
+		rotationX: -360,
+		scale: 0.95
 	});
 	var ribbonscene = new ScrollMagic.Scene({
 		triggerElement: "#ribbon-trigger",
