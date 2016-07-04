@@ -23,12 +23,13 @@
 			width: 50%;
 			max-width: 250px;
 			transition-property: transform;
-			transition-duration: 2.5s;
+			transition-duration: 1.8s;
 			transition-timing-function: ease-out;
-			transition-delay: 0.5s;
+			transition-delay: 0.2s;
 		}
 		.overlay:hover {
-			transform: rotateY(360deg);
+			transform: rotateY(20deg);
+			transform: rotateX(20deg);
 		}
 		.brand {
 			font-family: 'Yanone Kaffeesatz';
