@@ -76,7 +76,7 @@
 		opacity: 0
 	});
 	var aboutscene = new ScrollMagic.Scene({
-		triggerElement: "#opacity-trigger",
+		triggerElement: "#trigger-opacity",
 		duration: 0 // Let the animation simply be triggered
 	});
 	ribbonscene.setTween(abouttween);

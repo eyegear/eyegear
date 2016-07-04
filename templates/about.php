@@ -1,6 +1,6 @@
 <section id="section-about" class="about">
 	<div class="container">
-		<div id="opacity-trigger" class="opacity-animation"></div>
+		<div id="trigger-opacity" class="opacity-animation"></div>
     		<div id="animate-about-text row">
 			<div class="about-text col-sm-4 col-sm-offset-4">
 				<h1>eyegear catalog</h1>
