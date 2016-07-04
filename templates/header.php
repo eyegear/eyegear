@@ -6,8 +6,7 @@
 		</div>
 		<div id="trigger-overlay" class="rotating-animation"></div>
     		<div id="animate-overlay">
-			<img class="overlay" src="https://s3.ap-northeast-2.amazonaws.com/eyegear/shades.png">
-			<div class="overlay"></div>
+			<img class="overlay" src="https://s3.ap-northeast-2.amazonaws.com/eyegear/eyegear-icon-2000x2000px.png">
 		</div>
   	</div>
 </header>
