@@ -22,6 +22,7 @@
 		.overlay {
 			height: 100px;
 			width: 100px;
+			transform-style: "preserve-3d";
 		}
 		.brand {
 			font-family: 'Yanone Kaffeesatz';
