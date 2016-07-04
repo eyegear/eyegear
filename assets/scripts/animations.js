@@ -61,7 +61,7 @@
 	});
 	var ribbonscene = new ScrollMagic.Scene({
 		triggerElement: "#ribbon-trigger",
-		duration: 20 // Let the animation occur over 20 pixels
+		duration: 0 // Let the animation simply be triggered
 	});
 	ribbonscene.setTween(ribbontween);
 	ribbonscene.addTo(controller);
