@@ -13,13 +13,16 @@
 		perspective: 600;
 		.rotating-animation {
 			position: absolute;
-			top: 55vh;
+			top: 60vh;
 		}
 		.scaling-animation {
 			position: absolute;
-			top: 55vh;
+			top: 50vh;
 		}
 		.overlay {
+			position: absolute;
+			top: 50%;
+			left: 50%;
 			width: 50%;
 		}
 		.brand {
