@@ -66,6 +66,7 @@
 	});
 	ribbonscene.setTween(ribbontween);
 	ribbonscene.addTo(controller);
+	ribbonscene.addIndicators({name: "3 (duration: 0)"});
 
 
 
@@ -81,5 +82,5 @@
 	});
 	ribbonscene.setTween(abouttween);
 	ribbonscene.addTo(controller);
-	ribbonscene.addIndicators({name: "4"});
+	ribbonscene.addIndicators({name: "4 (duration: 0)"});
 })();
