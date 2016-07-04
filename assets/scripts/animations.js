@@ -32,7 +32,7 @@
 
 	// Implement Header Overlay Animation when the DOM is ready
 	var overlaytween = TweenMax.to('#animate-overlay', 0.5, {
-		rotationY: 18,
+		rotationY: 20,
 		scale: 1.20
 	});
 	var overlayscene = new ScrollMagic.Scene({
