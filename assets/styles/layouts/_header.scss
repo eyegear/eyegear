@@ -14,10 +14,15 @@
 		.rotating-animation {
 			position: absolute;
 			top: 60vh;
+			transition-property: transform;
+			transition-duration: 1.8s;
+			transition-timing-function: ease-out;
+			transition-delay: 0.2s;
 		}
 		.scaling-animation {
 			position: absolute;
 			top: 50vh;
+			transform: scale(0.8);
 		}
 		.overlay {
 			width: 50%;
