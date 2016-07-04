@@ -39,6 +39,7 @@
 	// Implement Header Overlay Animation when the DOM is ready
 	var overlaytween = TweenMax.to('#animate-overlay', 0.5, {
 		rotationY: 20,
+		rotationX: 20,
 		scale: 1.20
 	});
 	var overlayscene = new ScrollMagic.Scene({
@@ -55,6 +56,7 @@
 	// Implement Ribbon Animations when the DOM is ready
 	var ribbontween = TweenMax.to('#animate-ribbon', 1.5, {
 		letterSpacing: '5px',
+		rotationX: -180,
 		scale: 0.75
 	});
 	var ribbonscene = new ScrollMagic.Scene({
