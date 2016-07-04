@@ -80,7 +80,7 @@
 		triggerElement: "#trigger-opacity",
 		duration: 0 // Let the animation simply be triggered
 	});
-	ribbonscene.setTween(abouttween);
-	ribbonscene.addTo(controller);
-	ribbonscene.addIndicators({name: "4 (duration: 0)"});
+	aboutscene.setTween(abouttween);
+	aboutscene.addTo(controller);
+	aboutscene.addIndicators({name: "4 (duration: 0)"});
 })();
