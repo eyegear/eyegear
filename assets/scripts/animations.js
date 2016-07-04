@@ -32,8 +32,7 @@
 
 	// Implement Header Overlay Animation when the DOM is ready
 	var overlaytween = TweenMax.to('#animate-overlay', 0.5, {
-		perspective: '1000px',
-		rotateY: "180deg"
+		rotateY: 180
 	});
 	var overlayscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-overlay",
