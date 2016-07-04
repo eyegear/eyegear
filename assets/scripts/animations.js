@@ -54,7 +54,7 @@
 
 
 	// Implement Ribbon Animations when the DOM is ready
-	var ribbontween = TweenMax.to('#animate-ribbon', 1.5, {
+	var ribbontween = TweenMax.to('#animate-ribbon', 0.5, {
 		letterSpacing: '2.5px',
 		rotationX: -360,
 		scale: 0.95
