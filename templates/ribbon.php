@@ -4,9 +4,9 @@
 		<div id="animate-ribbon">
     			<div class="ribbon-text row">
 				<div class="col-sm-2 col-sm-offset-2"><strong>collections: </strong></div>
-				<div class="col-sm-2">sun</div>
-				<div class="col-sm-2">optical</div>
-				<div class="col-sm-2">fashion</div>
+				<div class="col-sm-2"><a href="#">sun</a></div>
+				<div class="col-sm-2"><a href="#">optical</a></div>
+				<div class="col-sm-2"><a href="#">fashion</a></div>
 		</div>
   	</div>
 </section>
