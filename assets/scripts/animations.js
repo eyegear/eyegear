@@ -53,6 +53,7 @@
 
 
 
+
 	// Implement Ribbon Animations when the DOM is ready
 	var ribbontween = TweenMax.to('#animate-ribbon', 0.5, {
 		letterSpacing: '2.5px',
@@ -65,5 +66,20 @@
 	});
 	ribbonscene.setTween(ribbontween);
 	ribbonscene.addTo(controller);
-	ribbonscene.addIndicators({name: "3"});
+
+
+
+
+
+	// Implement About Animations when the DOM is ready
+	var abouttween = TweenMax.from('#animate-about-text', 2.0, {
+		opacity: 0
+	});
+	var aboutscene = new ScrollMagic.Scene({
+		triggerElement: "#opacity-trigger",
+		duration: 0 // Let the animation simply be triggered
+	});
+	ribbonscene.setTween(abouttween);
+	ribbonscene.addTo(controller);
+	ribbonscene.addIndicators({name: "4"});
 })();
