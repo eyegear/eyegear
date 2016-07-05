@@ -20,6 +20,7 @@ use Roots\Sage\Wrapper;
     		?>
 		<?php get_template_part('templates/ribbon'); ?>
 		<?php get_template_part('templates/about'); ?>
+		<?php get_template_part('templates/catalog'); ?>
 		<section id="catalog" class="dynamic-content">
 			<div class="container">
 		          	<?php include Wrapper\template_path(); ?>
