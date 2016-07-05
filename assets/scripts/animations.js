@@ -73,8 +73,8 @@
 
 
 	// Implement About Animations when the DOM is ready
-	var abouttween = TweenMax.from('#animate-about-text', 2.0, {
-		left: 0,
+	var abouttween = TweenMax.to('#animate-about-text', 2.0, {
+		opacity: 1,
 		ease: Elastic.easeOut,
 	});
 	var aboutscene = new ScrollMagic.Scene({
