@@ -65,6 +65,7 @@
 		duration: 0 // Let the animation simply be triggered
 	});
 	ribbonscene.setTween(ribbontween);
+	aboutscene.reverse(false);
 	ribbonscene.addTo(controller);
 	ribbonscene.addIndicators({name: "3 (duration: 0)"});
 
@@ -73,7 +74,7 @@
 
 
 	// Implement About Animations when the DOM is ready
-	var abouttween = TweenMax.to('#animate-about-text', 2.0, {
+	var abouttween = TweenMax.to('#animate-about-text', 5.0, {
 		opacity: 1,
 		ease: Elastic.easeOut,
 	});
@@ -82,7 +83,6 @@
 		duration: 0 // Let the animation simply be triggered
 	});
 	aboutscene.setTween(abouttween);
-	aboutscene.reverse(false);
 	aboutscene.addTo(controller);
 	aboutscene.addIndicators({name: "4 (duration: 0)"});
 })();
