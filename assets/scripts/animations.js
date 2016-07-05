@@ -22,8 +22,9 @@
 
 	// Implement Banner Animation when the DOM is ready
 	var controller = new ScrollMagic.Controller();
-	var bannertween = TweenMax.to('#animate-brand', 0.5, {
+	var bannertween = TweenMax.from('#animate-brand', 0.5, {
 		scale: 0.8,
+		autoAlpha: 0,
 	});
 	var bannerscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-scale",
@@ -37,10 +38,11 @@
 
 
 	// Implement Header Overlay Animation when the DOM is ready
-	var overlaytween = TweenMax.to('#animate-overlay', 0.5, {
+	var overlaytween = TweenMax.from('#animate-overlay', 0.5, {
 		rotationY: 20,
 		rotationX: 20,
 		scale: 1.20,
+		autoAlpha: 0,
 	});
 	var overlayscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-overlay",
@@ -56,10 +58,9 @@
 
 	// Implement Ribbon Animations when the DOM is ready
 	var ribbontween = TweenMax.to('#animate-ribbon', 0.5, {
-		letterSpacing: '2.5px',
+		letterSpacing: '1.5px',
 		rotationX: -360,
 		scale: 0.95,
-		ease: Elastic.easeOut,
 	});
 	var ribbonscene = new ScrollMagic.Scene({
 		triggerElement: "#ribbon-trigger",
