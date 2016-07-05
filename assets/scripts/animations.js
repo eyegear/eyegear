@@ -81,7 +81,7 @@
 	});
 	var aboutscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-opacity",
-		duration: 0 // Let the animation simply be triggered
+		duration: '50vh'
 	});
 	aboutscene.setTween(abouttween);
 	aboutscene.addTo(controller);
