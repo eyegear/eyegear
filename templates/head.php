@@ -7,6 +7,7 @@
 	<!--- Google Fonts --->
 	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Ravi+Prakash' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
 
 	<!--- Wordpress Head --->
 	<?php wp_head(); ?>

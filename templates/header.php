@@ -1,6 +1,11 @@
 <header id="header-banner" class="banner">
 	<div id="malcolm-x-underlay" class="underlay"></div>
-	<div id="adjustable-background" class="background"></div>
+	<div id="adjustable-background" class="background">
+		<div id="trigger-fadeout" class="fadeout-animation"></div>
+		<div id="animate-slogan">
+			<p class="slogan"><?php bloginfo('description'); ?></p>
+		</div>
+	</div>
 	<div id="header-containter" class="container">
 		<div id="trigger-scale" class="scaling-animation"></div>
     		<div id="animate-brand">
