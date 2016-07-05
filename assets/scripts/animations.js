@@ -22,8 +22,9 @@
 
 	// Implement Banner Animation when the DOM is ready
 	var controller = new ScrollMagic.Controller();
-	var bannertween = TweenMax.to('#animate-brand', 0.5, {
-		scale: 0.8
+	var bannertween = TweenMax.to('#animate-brand', 1.5, {
+		scale: 0.8,
+		opacity: 1
 	});
 	var bannerscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-scale",
@@ -40,7 +41,8 @@
 	var overlaytween = TweenMax.to('#animate-overlay', 0.5, {
 		rotationY: 20,
 		rotationX: 20,
-		scale: 1.20
+		scale: 1.20,
+		opacity: 1
 	});
 	var overlayscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-overlay",
