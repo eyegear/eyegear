@@ -3,12 +3,34 @@
 	display: table;
 	width: 100%;
 	min-height: 100vh;
+	.underlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-height: 100vh;
+		z-index: 1;
+		background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-2000x2595px.jpg");
+		@media (min-width: $mq-med) {
+			background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-1920x1080px.jpg");
+		}
+	}
+	.background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-height: 100vh;
+		z-index: 2;
+		background-color: rgba($desert-yellow, 1);
+	}
 	.container {
 		position: relative;
 		display: table-cell;
 		vertical-align: middle;
-		background-color: $desert-yellow;
 		width: 100%;
+		z-index: 3;
+		background-color: rgba($desert-yellow, 0);
 		text-align: center;
 		perspective: 600;
 		.scaling-animation {
