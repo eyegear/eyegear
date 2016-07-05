@@ -10,10 +10,13 @@
 		width: 100%;
 		min-height: 100vh;
 		z-index: 1;
-		background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-2000x2595px.jpg") no-repeat center center fixed;
+		background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-2000x2595px.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
 		background-size: cover;
+		background-attachment: fixed;
 		@media (min-width: $mq-med) {
-			background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-1920x1080px.jpg") no-repeat center center fixed;
+			background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-1920x1080px.jpg");
 		}
 	}
 	.background {
@@ -24,7 +27,7 @@
 		min-height: 100vh;
 		z-index: 2;
 		background-color: rgba($desert-yellow, 1);
-		opacity: 0.3;
+		opacity: 0.4;
 	}
 	.container {
 		position: relative;
