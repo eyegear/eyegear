@@ -46,7 +46,7 @@
 			text-decoration: none;
 			text-shadow: 1px 1px 1px $shadow;
 			color: $theme-dark;
-			opacity: 0;
+			opacity: 1;
 			transition-property: transform;
 			transition-duration: 1.8s;
 			transition-timing-function: ease-out;
@@ -62,7 +62,7 @@
 		.overlay {
 			width: 50%;
 			max-width: 250px;
-			opacity: 0;
+			opacity: 1;
 			transition-property: transform;
 			transition-duration: 1.8s;
 			transition-timing-function: ease-out;
