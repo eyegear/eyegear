@@ -65,7 +65,7 @@
 		duration: 0 // Let the animation simply be triggered
 	});
 	ribbonscene.setTween(ribbontween);
-	aboutscene.reverse(false);
+	ribbonscene.reverse(false);
 	ribbonscene.addTo(controller);
 	ribbonscene.addIndicators({name: "3 (duration: 0)"});
 
@@ -76,6 +76,7 @@
 	// Implement About Animations when the DOM is ready
 	var abouttween = TweenMax.to('#animate-about-text', 5.0, {
 		opacity: 1,
+		color: '#fff',
 		ease: Elastic.easeOut,
 	});
 	var aboutscene = new ScrollMagic.Scene({
