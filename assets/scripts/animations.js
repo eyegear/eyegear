@@ -59,6 +59,7 @@
 		letterSpacing: '2.5px',
 		rotationX: -360,
 		scale: 0.95,
+		ease: Elastic.easeOut,
 	});
 	var ribbonscene = new ScrollMagic.Scene({
 		triggerElement: "#ribbon-trigger",
@@ -77,7 +78,6 @@
 	var abouttween = TweenMax.to('#animate-about-text', 5.0, {
 		opacity: 1,
 		color: '#fff',
-		ease: Elastic.easeOut,
 	});
 	var aboutscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-opacity",
