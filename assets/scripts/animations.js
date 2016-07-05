@@ -75,7 +75,7 @@
 
 
 	// Implement About Animations when the DOM is ready
-	var abouttween = TweenMax.to('#animate-about-text', 5.0, {
+	var abouttween = TweenMax.to('#animate-about-text', 1.0, {
 		opacity: 1,
 		color: '#fff',
 	});
