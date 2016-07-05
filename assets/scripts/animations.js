@@ -79,7 +79,6 @@
 	});
 	var aboutscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-opacity",
-		duration: 0 // Let the animation simply be triggered
 	});
 	aboutscene.setTween(abouttween);
 	aboutscene.reverse(false);
