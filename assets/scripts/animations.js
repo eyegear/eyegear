@@ -24,7 +24,7 @@
 	var controller = new ScrollMagic.Controller();
 	var bannertween = TweenMax.to('#animate-brand', 1.5, {
 		scale: 0.8,
-		autoAlpha: 1
+		rotation: 100
 	});
 	var bannerscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-scale",
@@ -42,7 +42,7 @@
 		rotationY: 20,
 		rotationX: 20,
 		scale: 1.20,
-		autoAlpha: 1
+		rotation: 100
 	});
 	var overlayscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-overlay",
@@ -76,7 +76,7 @@
 
 	// Implement About Animations when the DOM is ready
 	var abouttween = TweenMax.from('#animate-about-text', 2.0, {
-		autoAlpha: 0
+		rotation: 100
 	});
 	var aboutscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-opacity",
