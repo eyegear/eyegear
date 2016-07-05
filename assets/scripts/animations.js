@@ -81,6 +81,7 @@
 		duration: 0 // Let the animation simply be triggered
 	});
 	aboutscene.setTween(abouttween);
+	aboutscene.reverse(false);
 	aboutscene.addTo(controller);
 	aboutscene.addIndicators({name: "4 (duration: 0)"});
 })();
