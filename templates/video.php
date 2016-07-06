@@ -2,7 +2,7 @@
 	<div class="container">
     		<div class="row">
 			<div id="video-underlay" class="underlay">
-				<iframe id="video" src="//www.youtube.com/embed/C7IJ7npTYrU?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+				<iframe id="fullscreen-video" src="//www.youtube.com/embed/C7IJ7npTYrU?rel=0&autoplay=1" width="100%" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
   	</div>
