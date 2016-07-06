@@ -12,6 +12,13 @@
 	transition-duration: 1.8s;
 	transition-timing-function: ease-out;
 	transition-delay: 0.2s;
+	h1 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: translateY(-50%);
+		margin-left: translateX(-50%);
+	}
 	h1:hover {
 		transform: scale(1.2);
 	}
