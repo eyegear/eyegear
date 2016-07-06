@@ -20,17 +20,14 @@
 
 
 
-	// Implement Banner Animation when the DOM is ready
+	// Implement Banner Animation when the DOM is ready 
+	// Setting duration to 300 makes scrolling like scrubbing the animation over 300 pixels
 	var controller = new ScrollMagic.Controller();
-	var slogantween = TweenMax.to('#animate-slogan', 0.5, {
-		scale: 1.8,
-		autoAlpha: 0,
-	});
-	var sloganscene = new ScrollMagic.Scene({
-		triggerElement: "#trigger-fadeout",
-		duration: 300 // Setting to 300 makes scrolling like scrubbing the animation over 300 pixels
-	});
+	var slogantween = TweenMax.to('#animate-slogan', 0.5, { scale: 1.8, autoAlpha: 0, });
+	var backgroundtween = TweenMax.to('#adjustable-background', 0.5, { autoAlpha: 1, });
+	var sloganscene = new ScrollMagic.Scene({ triggerElement: "#trigger-fadeout", duration: 300 });
 	sloganscene.setTween(slogantween);
+	sloganscene.setTween(backgroundtween);
 	sloganscene.addTo(controller);
 	sloganscene.addIndicators({name: "0 (duration: 300)"});
 
