@@ -1,0 +1,20 @@
+.video {
+        position: relative;
+        display: table;
+        width: 100%;
+        .underlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 1;
+                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-800x1200px.jpg");
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                background-attachment: fixed;
+                @media (min-width: $mq-med) {
+                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-1920x1080px.jpg");
+                }
+        }
+}

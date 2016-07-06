@@ -1,0 +1,11 @@
+.catalog {
+        position: relative;
+        display: table;
+        width: 100%;
+	font-family: 'Ravi Prakash';
+	font-weight: 400;
+	font-size: 10em;
+	h1:hover {
+		transform: scale(1.2);
+	}
+}

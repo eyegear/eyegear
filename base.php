@@ -21,6 +21,7 @@ use Roots\Sage\Wrapper;
 		<?php get_template_part('templates/ribbon'); ?>
 		<?php get_template_part('templates/about'); ?>
 		<?php get_template_part('templates/catalog'); ?>
+		<?php get_template_part('templates/video'); ?>
     		<?php
       			do_action('get_footer');
       			get_template_part('templates/footer');

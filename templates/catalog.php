@@ -3,7 +3,6 @@
 		<div class="row">
 			<div class="col-md-6">
 					<h1>sun man</h1>
-				</div>
 			</div>
 			<div class="col-md-6">
 				<div id="trigger-slide-left" class="slide-left-animation"></div>
