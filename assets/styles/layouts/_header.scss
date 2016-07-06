@@ -78,7 +78,7 @@
 			box-shadow: rgba(50,50,50,0.75) 0 6px 9px,rgba(50,50,50,0.75) 0 6px 9px inset;
 			content: "";
 			color: $white;
-			animation: rotater-cw-90-degrees 3s ease-out forwards;
+			animation: rotater-cw-90-degrees 3s ease-out backwards;
 		}
 		.fadeout-animation {
 			position: absolute;
