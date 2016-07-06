@@ -25,6 +25,7 @@
 	var slogantween = TweenMax.to('#animate-slogan', 0.5, {
 		scale: 1.8,
 		autoAlpha: 0,
+		opacity: 1,
 	});
 	var sloganscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-fadeout",
