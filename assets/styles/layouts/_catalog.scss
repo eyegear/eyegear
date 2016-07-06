@@ -5,7 +5,43 @@
 	font-family: 'Ravi Prakash';
 	font-weight: 400;
 	font-size: 10em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px $shadow;
+	color: $theme-dark;
+	transition-property: transform;
+	transition-duration: 1.8s;
+	transition-timing-function: ease-out;
+	transition-delay: 0.2s;
 	h1:hover {
 		transform: scale(1.2);
 	}
+        .container {
+                position: relative;
+                display: table-cell;
+                vertical-align: middle;
+                width: 100%;
+                z-index: 1;
+                background-color: rgba($desert-yellow, 0);
+                text-align: center;
+                perspective: 600;
+                .rotating-animation {
+                        position: absolute;
+                        top: 60vh;
+                }
+                .overlay {
+                        width: 50%;
+                        max-width: 250px;
+                        transition-property: transform;
+                        transition-duration: 1.8s;
+                        transition-timing-function: ease-out;
+                        transition-delay: 0.2s;
+                }
+                .overlay:hover {
+                        transform: rotateY(20deg);
+                        transform: rotateX(20deg);
+                }
+		.catalog-image {
+			width: 100%;
+		}
+        }
 }

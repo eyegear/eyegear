@@ -6,8 +6,8 @@
 			</div>
 			<div class="col-md-6">
 				<div id="trigger-slide-left" class="slide-left-animation"></div>
-    				<div id="animate-sun-man">
-					<img src="https://s3.ap-northeast-2.amazonaws.com/eyegear/post-man-sun.jpg">
+    				<div id="animate-featured">
+					<img id="featured-image" class="catalog-image" src="https://s3.ap-northeast-2.amazonaws.com/eyegear/post-man-sun.jpg">
 				</div>
 			</div>
 		</div>
