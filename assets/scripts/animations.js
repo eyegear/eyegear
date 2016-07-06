@@ -16,6 +16,7 @@
 	// STEP 4: add our animation object to the scene object
 	// STEP 5: add our scene object to the scrollmagic controller
 	// OPTIONAL: add debug indicators fixed on right side
+	// EXAMPLE: sloganscene.addIndicators({name: "0 (duration: 300)"});
 
 
 
@@ -24,17 +25,16 @@
 	// Setting duration to 300 makes scrolling like scrubbing the animation over 300 pixels
 	var controller = new ScrollMagic.Controller();
 	var slogantween = TweenMax.to('#animate-slogan', 0.5, { scale: 1.8, autoAlpha: 0, });
-	var backgroundtween = TweenMax.to('#adjustable-background', 0.5, { autoAlpha: 1, });
+	var backgroundtween = TweenMax.from('#adjustable-background', 0.5, { autoAlpha: 1, });
 	var sloganscene = new ScrollMagic.Scene({ triggerElement: "#trigger-fadeout", duration: 300 });
 	sloganscene.setTween(slogantween);
 	sloganscene.setTween(backgroundtween);
 	sloganscene.addTo(controller);
-	sloganscene.addIndicators({name: "0 (duration: 300)"});
 
 
 
 
-	var brandtween = TweenMax.from('#animate-brand', 0.5, {
+	var brandtween = TweenMax.to('#animate-brand', 0.5, {
 		scale: 0.8,
 		autoAlpha: 0,
 	});
@@ -44,7 +44,6 @@
 	});
 	brandscene.setTween(brandtween);
 	brandscene.addTo(controller);
-	brandscene.addIndicators({name: "1 (duration: 300)"});
 
 
 
@@ -62,7 +61,6 @@
 	});
 	overlayscene.setTween(overlaytween);
 	overlayscene.addTo(controller);
-	overlayscene.addIndicators({name: "2 (duration: 300)"});
 
 
 
@@ -81,7 +79,6 @@
 	ribbonscene.setTween(ribbontween);
 	ribbonscene.reverse(false);
 	ribbonscene.addTo(controller);
-	ribbonscene.addIndicators({name: "3 (duration: 0)"});
 
 
 
@@ -98,5 +95,4 @@
 	});
 	aboutscene.setTween(abouttween);
 	aboutscene.addTo(controller);
-	aboutscene.addIndicators({name: "4 (duration: 0)"});
 })();
