@@ -85,8 +85,10 @@
 			top: 55vh;
 		}
 		@keyframes rotater-cw-90-degrees {
-			from { transform: rotate(0deg); }
-			to { transform: rotate(90deg); }
+			0% { transform: rotate(0deg); }
+			50% { transform: rotate(90deg); }
+			51% { top: 0; left: 0; }
+			100% { top: 10px; left: 10px; }
 		}
 	}
 	.container {
