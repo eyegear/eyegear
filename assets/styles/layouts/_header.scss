@@ -38,10 +38,14 @@
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 		color: $white;
 		.instructional-icon {
+			position: relative;
+			display: in-line;
+			margin: auto;
+			width: 60px;
+			height: 60px;
+			min-width: 45px;
+			min-height: 45px;
 			cursor: pointer;
-			display: block;
-			position: absolute;
-			color: $white;
 			background-color: $theme-dark;
 			background-color: rgba($theme-dark, 0.25);
 			background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…YiIHBvaW50cz0iMywzOS4wMjUgMzUuNjQ4LDIwLjE3NSAzLDEuMzI2ICIvPg0KPC9zdmc+DQo=");
@@ -49,22 +53,10 @@
 			background-position: 65% center;
 			background-size: 55%;
 			border: 3px solid $white;
-			content: "";
-			width: 60px;
-			height: 60px;
-			min-width: 45px;
-			min-height: 45px;
-			margin: auto;
-			top: 0;
-			bottom: 0;
-			right: 0;
-			left: 0;
-			-moz-box-shadow: rgba(50,50,50,0.75) 0 6px 9px,rgba(50,50,50,0.75) 0 6px 9px inset;
-			-webkit-box-shadow: rgba(50,50,50,0.75) 0 6px 9px,rgba(50,50,50,0.75) 0 6px 9px inset;
-			box-shadow: rgba(50,50,50,0.75) 0 6px 9px,rgba(50,50,50,0.75) 0 6px 9px inset;
-			-moz-border-radius: 500px;
-			-webkit-border-radius: 500px;
 			border-radius: 500px;
+			box-shadow: rgba(50,50,50,0.75) 0 6px 9px,rgba(50,50,50,0.75) 0 6px 9px inset;
+			content: "";
+			color: $white;
 		}
 		.fadeout-animation {
 			position: absolute;

@@ -3,8 +3,8 @@
 	<div id="adjustable-background" class="background">
 		<div id="trigger-fadeout" class="fadeout-animation"></div>
 		<div id="animate-slogan">
-			<p class="slogan"><?php bloginfo('description'); ?></p>
 			<i class="instructional-icon"></i>
+			<span class="slogan"><?php bloginfo('description'); ?></span>
 		</div>
 	</div>
 	<div id="header-containter" class="container">
