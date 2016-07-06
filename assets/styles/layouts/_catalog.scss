@@ -2,24 +2,17 @@
         position: relative;
         display: table;
         width: 100%;
+	min-height: 100%;
 	font-family: 'Ravi Prakash';
 	font-weight: 400;
 	font-size: 10em;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 1px $shadow;
+	text-shadow: 1px 1px 1px rgba($theme-dark, 0.3);
 	color: $theme-dark;
 	transition-property: transform;
 	transition-duration: 1.8s;
 	transition-timing-function: ease-out;
 	transition-delay: 0.2s;
-	h1 {
-		position: relative;
-		width: 100%;
-		padding: 10em 0;
-	}
-	h1:hover {
-		transform: scale(1.2);
-	}
         .container {
                 position: relative;
                 display: table-cell;
@@ -29,6 +22,14 @@
                 background-color: rgba($desert-yellow, 0);
                 text-align: center;
                 perspective: 600;
+		h1 {
+			position: relative;
+			width: 100%;
+			margin: auto;
+		}
+		h1:hover {
+			transform: scale(1.2);
+		}
                 .rotating-animation {
                         position: absolute;
                         top: 60vh;
@@ -46,7 +47,8 @@
                         transform: rotateX(20deg);
                 }
 		.catalog-image {
-			width: 100%;
+			width: 80%;
+			margin: 0 auto;
 		}
         }
 }

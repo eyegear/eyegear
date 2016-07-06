@@ -4,6 +4,7 @@
 		<div id="trigger-fadeout" class="fadeout-animation"></div>
 		<div id="animate-slogan">
 			<p class="slogan"><?php bloginfo('description'); ?></p>
+			<i class="instructional-icon"></i>
 		</div>
 	</div>
 	<div id="header-containter" class="container">
