@@ -22,17 +22,32 @@
 
 	// Implement Banner Animation when the DOM is ready
 	var controller = new ScrollMagic.Controller();
-	var bannertween = TweenMax.from('#animate-brand', 0.5, {
+	var slogantween = TweenMax.to('#animate-slogan', 0.5, {
+		scale: 1.8,
+		autoAlpha: 0,
+	});
+	var sloganscene = new ScrollMagic.Scene({
+		triggerElement: "#trigger-fadeout",
+		duration: 300 // Setting to 300 makes scrolling like scrubbing the animation over 300 pixels
+	});
+	sloganscene.setTween(slogantween);
+	sloganscene.addTo(controller);
+	sloganscene.addIndicators({name: "1 (duration: 300)"});
+
+
+
+
+	var brandtween = TweenMax.from('#animate-brand', 0.5, {
 		scale: 0.8,
 		autoAlpha: 0,
 	});
-	var bannerscene = new ScrollMagic.Scene({
+	var brandscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-scale",
 		duration: 300 // Setting to 300 makes scrolling like scrubbing the animation over 300 pixels
 	});
-	bannerscene.setTween(bannertween);
-	bannerscene.addTo(controller);
-	bannerscene.addIndicators({name: "1 (duration: 300)"});
+	brandscene.setTween(brandtween);
+	brandscene.addTo(controller);
+	brandscene.addIndicators({name: "1 (duration: 300)"});
 
 
 
