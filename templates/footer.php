@@ -1,5 +1,5 @@
-<footer id="sitemap" class="footer viewport">
-        <div class="container-fluid viewport-center">
+<footer id="sitemap" class="footer">
+        <div class="container-fluid">
 		<div class="second-layer padded">
 			<div class="row">
 		                <div class="col-md-3">
@@ -34,7 +34,7 @@
 	                </div>
 			<div class="row">
 	                        <div class="col-md-4 col-md-offset-4 text-center">
-	                                <h5 id="copyright" class="notice"><strong>Copyright</strong> (c) 2016 <strong>Eyegear Productions</strong>. All Rights Reserved.</h5>
+	                                <h5 id="copyright" class="notice"><strong>Copyright</strong> (c) 2016 <strong>Eyegear Productions</strong>.<br>All Rights Reserved.</h5>
 	                                <h5 id="design" class="notice">design by <strong><a href="http://www.quilombolaengineering.com">quilombola engineering</a></strong>.</h5>
 	                                <hr id="primary">
 	                        </div>
