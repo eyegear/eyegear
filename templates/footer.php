@@ -9,7 +9,7 @@
 		                        <p><a href="<?php echo get_site_url(); ?>/privacy-policy">Privacy Policy</a></p>
 		                </div>
 		                <div class="col-md-3">
-		                        <h2>Recent <strong>Posts</strong></h2>
+		                        <h2>Latest <strong>Eyegear</strong></h2>
 					<?php
 						$args = array( 'numberposts' => '5', 'post_status' => 'publish' );
 						$recent_posts = wp_get_recent_posts( $args );
