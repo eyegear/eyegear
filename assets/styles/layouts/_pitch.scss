@@ -15,17 +15,16 @@
                         margin-top: 0;
                 }
 		.pitch-text {
-			margin: 2em auto;
-			min-width: 50px;
 			font-family: 'Yanone Kaffeesatz';
 			font-weight: 700;
 			font-size: 2em;
 			text-transform: lowercase;
-			text-shadow: $shadow;
+			text-shadow: 1px 1px 1px rgba($white, 0.4);
 			line-height: 2em;
 			color: $theme-dark;
 			border: 2px solid $theme-dark;
 			border-radius: 2px;
+			transition: all 0.5s;
 			strong {
 				font-family: 'Ravi Prakash';
 				font-weight: 400;
