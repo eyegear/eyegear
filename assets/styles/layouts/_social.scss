@@ -11,12 +11,17 @@
                 width: 100%;
                 padding: 2em 0;
                 text-align: center;
+                color: $white;
+		h1 {
+			font-family: 'Ravi Prakash';
+			font-weight: 400;
+			font-size: 2.5em;
+		}
                 .flip-animation {
                         position: absolute;
                         margin-top: -2em;
                 }
                 .social-icons {
-			opacity: 0.5;
                         font-family: 'Yanone Kaffeesatz';
                         font-weight: 700;
                         font-size: 1em;
@@ -25,17 +30,14 @@
                         line-height: 2em;
                         color: rgba($desert-yellow, 1);
 			.social-icon {
-				margin: 0 3px;
+				margin: 0 5px;
 			}
-                        h1 {
-                                font-family: 'Ravi Prakash';
-                                font-weight: 400;
-                                font-size: 2.5em;
-                        }
                         a {
                                 text-decoration: none;
-                                color: $white;
                         }
+			a:hover {
+                                color: $white;
+			}
                 }
         }
 }
