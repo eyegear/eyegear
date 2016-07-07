@@ -5,8 +5,7 @@
 	min-height: 100vh;
         margin: 0 auto;
         padding: 4em 0;
-        ul {
-		.footer-fader {
+        ul.footer-fader {
 	                li {
 				position: absolute;
 				height: 100%;
@@ -46,7 +45,6 @@
 	                        }
 	                        @include animation-delay(9s);
 	                }
-	        }
 	}
 	.background {
 		background-color: rgba($desert-yellow, 0.8);
