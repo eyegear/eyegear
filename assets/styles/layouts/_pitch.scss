@@ -1,0 +1,37 @@
+.pitch {
+	position: relative;
+	display: table;
+	width: 100%;
+	min-height: 10em;
+	.container {
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+		background: $white url('https://s3.ap-northeast-2.amazonaws.com/eyegear/lightmesh.png') repeat center center;
+		width: 100%;
+		padding: 2em 0;
+		text-align: center;
+                .pitch-animation {
+                        position: absolute;
+                        margin-top: 0;
+                }
+		.pitch-text {
+			font-family: 'Yanone Kaffeesatz';
+			font-weight: 700;
+			font-size: 2em;
+			text-transform: lowercase;
+			text-shadow: $shadow;
+			line-height: 2em;
+			color: $theme-dark;
+			strong {
+				font-family: 'Ravi Prakash';
+				font-weight: 400;
+				font-size: 1.5em;
+			}
+			a {
+				text-decoration: none;
+				color: $theme-dark;
+			}
+		}
+	}
+}
