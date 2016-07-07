@@ -68,11 +68,11 @@
 		}
 	        hr {
 	                max-width: 4em;
-	                border-color: $color-grey;
+	                border-color: $theme-dark;
 	                border-width: 0.25em;
 	        }
 	        hr.light {
-	                border-color: $color-light;
+	                border-color: $white;
 	        }
 	}
 }
