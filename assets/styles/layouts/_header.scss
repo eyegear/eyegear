@@ -26,6 +26,7 @@
 		width: 100%;
 		min-height: 100vh;
 		z-index: 2;
+		background-color: rgba($desert-yellow, 0.9);
 		opacity: 0.75;
 		padding-top: 2em;
 		padding-left: 2em;
@@ -43,7 +44,6 @@
 		}
 		.brand {
 			display: block;
-			background-color: rgba($desert-yellow, 1);
 			font-family: 'Yanone Kaffeesatz';
 			font-weight: 700;
 			font-size: 2em;

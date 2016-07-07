@@ -7,7 +7,7 @@
 		</div>
 		<div id="trigger-fadeout" class="fadeout-animation"></div>
 		<div id="animate-slogan">
-			<i class="instructional-icon"></i>
+			<a href="#section-about"><i class="instructional-icon"></i></a>
 			<span class="slogan"><?php bloginfo('description'); ?></span>
 		</div>
 	</div>
