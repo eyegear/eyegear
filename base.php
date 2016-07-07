@@ -18,10 +18,11 @@ use Roots\Sage\Wrapper;
       			do_action('get_header');
       			get_template_part('templates/header');
     		?>
-		<?php get_template_part('templates/ribbon'); ?>
 		<?php get_template_part('templates/about'); ?>
+		<?php get_template_part('templates/ribbon'); ?>
 		<?php get_template_part('templates/catalog'); ?>
 		<?php get_template_part('templates/pitch'); ?>
+		<?php get_template_part('templates/social'); ?>
     		<?php
       			do_action('get_footer');
       			get_template_part('templates/footer');

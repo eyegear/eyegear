@@ -39,28 +39,10 @@
 	});
 	var brandscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-scale",
-		duration: 300 // Setting to 300 makes scrolling like scrubbing the animation over 300 pixels
+		duration: 100 // Setting to 100 makes scrolling like scrubbing the animation over 100 pixels
 	});
 	brandscene.setTween(brandtween);
 	brandscene.addTo(controller);
-
-
-
-
-	// Implement Header Overlay Animation when the DOM is ready
-	var overlaytween = TweenMax.from('#animate-overlay', 0.5, {
-		rotationY: 20,
-		rotationX: 20,
-		scale: 1.20,
-		autoAlpha: 0,
-	});
-	var overlayscene = new ScrollMagic.Scene({
-		triggerElement: "#trigger-overlay",
-		duration: 300 // Setting to 300 makes scrolling like scrubbing the animation over 300 pixels
-	});
-	overlayscene.setTween(overlaytween);
-	overlayscene.addTo(controller);
-
 
 
 
@@ -94,4 +76,25 @@
 	});
 	aboutscene.setTween(abouttween);
 	aboutscene.addTo(controller);
+
+
+
+
+
+	// Implement Social Animations when the DOM is ready
+	var fliptween = TweenMax.to('#animate-social-icons', 0.5, {
+		rotationX: -90,
+		scaleX: 0.8,
+	});
+	var connectscene = new ScrollMagic.Scene({
+		triggerElement: "#trigger-flip",
+		duration: 100 // Setting to 100 makes scrolling like scrubbing the animation over 100 pixels
+	});
+	connectscene.setTween(fliptween);
+	connectscene.addTo(controller);
+
+
+
+
+
 })();
