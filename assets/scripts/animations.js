@@ -25,8 +25,10 @@
 	// Setting duration to 300 makes scrolling like scrubbing the animation over 300 pixels
 	var controller = new ScrollMagic.Controller();
 	var slogantween = TweenMax.to('#animate-slogan', 0.5, { scale: 1.8, autoAlpha: 0, });
+	var backgroundtween = TweenMax.from('#adjustable-background', 0.5, { autoAlpha: 1, });
 	var sloganscene = new ScrollMagic.Scene({ triggerElement: "#trigger-fadeout", duration: 300 });
 	sloganscene.setTween(slogantween);
+	sloganscene.setTween(backgroundtween);
 	sloganscene.addTo(controller);
 
 
