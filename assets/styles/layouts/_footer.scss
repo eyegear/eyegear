@@ -8,25 +8,24 @@
         ul {
 		.footer-fader {
 	                li {
-				position: absolute;
-				height: 100%;
-				width: 100%;
-				top: 0;
-				left: 0;
-				z-index: 0;
-	                        opacity: 0;
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: 50%;
-	                        background-attachment: fixed;
-	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-stripes-800x1200px.jpeg");
 				.base-layer {
-					z-index: 0;
+					position: absolute;
+					height: 100%;
+					width: 100%;
+					top: 0;
+					left: 0;
+					z-index: 1;
+		                        opacity: 0;
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: 50%;
+		                        background-attachment: fixed;
+		                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-stripes-800x1200px.jpeg");
+		                        @media (min-width: $mq-med) {
+		                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-birthday-2000x1350px.jpeg");
+		                        }
+		                        @include animation(fade-out 27s infinite both);
 				}
-	                        @media (min-width: $mq-med) {
-	                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-birthday-2000x1350px.jpeg");
-	                        }
-	                        @include animation(fade-out 27s infinite both);
 	                }
 	                li:nth-child(2) {
 	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-march-800x1200px.jpeg");
@@ -52,9 +51,9 @@
 	        }
 	}
 	.background {
-		background-color: rgba($desert-yellow, 0.8);
 		.layer-2 {
 			z-index: 2;
+			background-color: rgba($desert-yellow, 0.8);
 		}
 	}
 	.container {
