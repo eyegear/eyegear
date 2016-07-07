@@ -4,28 +4,72 @@
         width: 100%;
         margin: 0 auto;
         padding: 4em 0;
-        text-shadow: 1px 1px 1px rgba(255,255,255,0.1);
-        text-transform: uppercase;
-        color: $white;
-        font-family: 'Six Caps';
-        font-size: 1em;
-        font-weight: 100;
-        font-style: normal;
-        line-height: 1.9em;
-        letter-spacing: 0.05em;
+        ul {
+		.footer-fader {
+	                li {
+				position: absolute;
+				height: 100%;
+				width: 100%;
+				top: 0;
+				left: 0;
+				z-index: 0;
+	                        opacity: 0;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: 50%;
+	                        background-attachment: fixed;
+	                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/xango-zumbi-roda-800x1200px.jpeg);
+	                        @media (min-width: $mq-med) {
+	                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/calango-chama-formiguinha-2000x1350px.jpeg);
+	                        }
+	                        @include animation(fade-out 27s infinite both);
+	                }
+	                li:nth-child(2) {
+	                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/mestre-calango-atabaque-800x1200px.jpeg);
+	                        @media (min-width: $mq-med) {
+	                                background-image: $zumba-freeze-2000x1350px;
+	                        }
+	                        @include animation-delay(18s);
+	                }
+	                li:nth-child(3) {
+	                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/segredo-calango-roda-800x1200px.jpeg);
+	                        @media (min-width: $mq-med) {
+	                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/formiguinha-calango-roda-2000x1300px.jpg);
+	                        }
+	                        @include animation-delay(9s);
+	                }
+	                li:nth-child(4) {
+	                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/segredo-calango-roda-800x1200px.jpeg);
+	                        @media (min-width: $mq-med) {
+	                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/formiguinha-calango-roda-2000x1300px.jpg);
+	                        }
+	                        @include animation-delay(9s);
+	                }
+	        }
+	}
+	.base-layer {
+		z-index: 0;
+	}
 	.background {
 		background-color: $desert-yellow;
 	}
 	.layer-2 {
-		position: relative;
 		z-index: 2;
 	}
 	.container {
                 position: relative;
 	        display: table-cell;
                 vertical-align: middle;
-                z-index: 3;
                 padding: 0 5%;
+	        font-family: 'Six Caps';
+	        font-size: 1em;
+	        font-weight: 100;
+	        font-style: normal;
+	        text-shadow: 1px 1px 1px rgba(255,255,255,0.1);
+	        text-transform: uppercase;
+	        line-height: 1.9em;
+	        letter-spacing: 0.05em;
+	        color: $white;
                 a {
                         text-decoration: none;
                         font-weight: 100;
@@ -34,5 +78,8 @@
                 a:hover {
                         color: $theme-dark;
                 }
+	}
+	.layer-3 {
+		z-index: 3;
 	}
 }
