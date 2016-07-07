@@ -1,13 +1,13 @@
 <footer class="footer">
         <!-- slider animation -->
-        <ul class="base-layer footer-fader">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+        <ul class="footer-fader">
+                <li class="base-layer"></li>
+                <li class="base-layer"></li>
+                <li class="base-layer"></li>
+                <li class="base-layer"></li>
         </ul>
-	<div id="footer-tint" class="layer-2 background"></div>
-        <div class="layer-3 container">
+	<div id="footer-tint" class="background layer-2"></div>
+        <div class="container layer-3">
 		<div class="row">
 	                <div class="col-md-3">
 	                        <h2>SITE MAP</h2>
