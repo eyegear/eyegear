@@ -41,9 +41,18 @@
 		.notice {
 			padding: 2em 0;
 		}
+		p,h2 {
+			font-family: 'Six Caps';
+			font-weight: 100;
+			text-transform: lowercase;
+			strong {
+				font-weight: 100;
+				text-transform: uppercase;
+			}
+		}
 		a {
 			color: $theme-dark;
-			font-family: Lato;
+			font-family: 'Six Caps';
 			font-weight: 100;
 			text-decoration: none;
 			text-transform: lowercase;
