@@ -86,10 +86,15 @@
 		rotationX: -90,
 		scaleX: 0.8,
 	});
+	var slideuptween = TweenMax.from('#animate-social-h1', 0.5, {
+		y: "-20",
+		autoAlpha: 0,
+	});
 	var connectscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-flip",
 		duration: 200 // Setting to 200 makes scrolling like scrubbing the animation over 200 pixels
 	});
+	connectscene.setTween(slideuptween);
 	connectscene.setTween(fliptween);
 	connectscene.addTo(controller);
 
