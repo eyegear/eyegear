@@ -1,78 +1,40 @@
 .footer {
-        position: relative;
-        display: table;
-        width: 100%;
+	position: relative;
+	z-index: 1;
+	width: 100%;
 	min-height: 100vh;
-        margin: 0 auto;
-        padding: 4em 0;
-        ul.footer-fader {
-	                li {
-				position: absolute;
-				height: 100%;
-				width: 100%;
-				top: 0;
-				left: 0;
-				z-index: 0;
-	                        opacity: 0;
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: 50%;
-	                        background-attachment: fixed;
-	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-stripes-800x1200px.jpeg");
-	                        @media (min-width: $mq-med) {
-	                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-birthday-2000x1350px.jpeg");
-	                        }
-	                        @include animation(fade-out 27s infinite both);
-	                }
-	                li:nth-child(2) {
-	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-march-800x1200px.jpeg");
-	                        @media (min-width: $mq-med) {
-	                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-bowtie-2000x1200px.jpeg");
-	                        }
-	                        @include animation-delay(18s);
-	                }
-	                li:nth-child(3) {
-	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-microphone-800x1200px.jpeg");
-	                        @media (min-width: $mq-med) {
-	                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-faded-2000x1000px.jpeg");
-	                        }
-	                        @include animation-delay(9s);
-	                }
-	                li:nth-child(4) {
-	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-smiles-800x1200px.jpeg");
-	                        @media (min-width: $mq-med) {
-	                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-ponders-2000x1000px.jpeg");
-	                        }
-	                        @include animation-delay(9s);
-	                }
-	}
-	.background {
-		background-color: rgba($desert-yellow, 0.8);
+	text-align: center;
+	color: $theme-dark;
+	background-image: url('https://s3.amazonaws.com/betterstudios/avacado-5000x3333px.png');
+	background-color: rgba($white,1);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	.second-layer {
+		position: absolute;
+		width: 100%;
+		min-height: 100vh;
+		top: 0;
+		left: 0;
 		z-index: 2;
-	}
-	.container {
-                position: relative;
-	        display: table-cell;
-                vertical-align: middle;
-                padding: 0 5%;
-		z-index: 3;
-		background: transparent;
-	        font-family: 'Six Caps';
-	        font-size: 1em;
-	        font-weight: 100;
-	        font-style: normal;
-	        text-shadow: 1px 1px 1px rgba($theme-dark,0.3);
-	        text-transform: uppercase;
-	        line-height: 1.9em;
-	        letter-spacing: 0.05em;
-	        color: $white;
-                a {
-                        text-decoration: none;
-                        font-weight: 100;
-                        color: $white;
-                }
-                a:hover {
-                        color: $theme-dark;
-                }
+		background-color: rgba($white,0.9);
+		padding: 4em 0;
+		.notice {
+			padding: 2em 0;
+		}
+		a {
+			color: $theme-dark;
+			font-family: Lato;
+			font-weight: 100;
+			text-decoration: none;
+			text-transform: lowercase;
+			transition: all ease-out 3.5s 0.5s;
+		}
+		a:hover {
+			color: $desert-yellow;
+			transform: scale(0.9);
+		}
 	}
 }
