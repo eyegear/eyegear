@@ -25,8 +25,10 @@
 	// Setting duration to 300 makes scrolling like scrubbing the animation over 300 pixels
 	var controller = new ScrollMagic.Controller();
 	var slogantween = TweenMax.to('#animate-slogan', 0.5, { scale: 1.8, autoAlpha: 0, });
+	var backgroundtween = TweenMax.from('#adjustable-background', 0.5, { autoAlpha: 1, });
 	var sloganscene = new ScrollMagic.Scene({ triggerElement: "#trigger-fadeout", duration: 300 });
 	sloganscene.setTween(slogantween);
+	sloganscene.setTween(backgroundtween);
 	sloganscene.addTo(controller);
 
 
@@ -46,15 +48,11 @@
 
 
 	// Implement Ribbon Animations when the DOM is ready
-	var ribbontween = TweenMax.from('#animate-ribbon', 2.5, {
-		delay: 0.5,
-		x: '-100',
-		autoAlpha: 0,
-	},
-	{
-		rotation: 360,
-	},
-	0.5);
+	var ribbontween = TweenMax.to('#animate-ribbon', 0.5, {
+		letterSpacing: '1.5px',
+		rotationX: -360,
+		scale: 0.95,
+	});
 	var ribbonscene = new ScrollMagic.Scene({
 		triggerElement: "#ribbon-trigger",
 		duration: 0 // Let the animation simply be triggered
@@ -88,10 +86,14 @@
 		rotationX: -90,
 		scaleX: 0.8,
 	});
+	var slideuptween = TweenMax.from('#animate-social-h1', 0.5, {
+		y: "-20",
+	});
 	var connectscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-flip",
 		duration: 200 // Setting to 200 makes scrolling like scrubbing the animation over 200 pixels
 	});
+	connectscene.setTween(slideuptween);
 	connectscene.setTween(fliptween);
 	connectscene.addTo(controller);
 
