@@ -15,7 +15,8 @@
                         margin-top: 0;
                 }
 		.pitch-text {
-			margin: 5em auto;
+			margin: 2em auto;
+			min-width: 50px;
 			font-family: 'Yanone Kaffeesatz';
 			font-weight: 700;
 			font-size: 2em;
@@ -36,7 +37,7 @@
 			}
 		}
 		.pitch-text:hover {
-			color: rgba($theme-dark,0);
+			color: rgba($white,1);
 			background-color: $theme-dark;
 			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 		}
