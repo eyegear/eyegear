@@ -25,10 +25,8 @@
 	// Setting duration to 300 makes scrolling like scrubbing the animation over 300 pixels
 	var controller = new ScrollMagic.Controller();
 	var slogantween = TweenMax.to('#animate-slogan', 0.5, { scale: 1.8, autoAlpha: 0, });
-	var backgroundtween = TweenMax.from('#adjustable-background', 0.5, { autoAlpha: 1, });
 	var sloganscene = new ScrollMagic.Scene({ triggerElement: "#trigger-fadeout", duration: 300 });
 	sloganscene.setTween(slogantween);
-	sloganscene.setTween(backgroundtween);
 	sloganscene.addTo(controller);
 
 
@@ -82,17 +80,9 @@
 
 
 	// Implement Social Animations when the DOM is ready
-	var fliptween = TweenMax.from('#animate-social-icons', 0.5, {
-		rotationX: -90,
-		scaleX: 0.8,
-	});
-	var slideuptween = TweenMax.from('#animate-social-h1', 0.5, {
-		y: "-20",
-	});
-	var connectscene = new ScrollMagic.Scene({
-		triggerElement: "#trigger-flip",
-		duration: 200 // Setting to 200 makes scrolling like scrubbing the animation over 200 pixels
-	});
+	var fliptween = TweenMax.from('#animate-social-icons', 0.5, { rotationX: -90, scaleX: 0.8, });
+	var slideuptween = TweenMax.from('#animate-social-h1', 0.5, { y: "-50", });
+	var connectscene = new ScrollMagic.Scene({ triggerElement: "#trigger-flip", duration: 200 });
 	connectscene.setTween(slideuptween);
 	connectscene.setTween(fliptween);
 	connectscene.addTo(controller);
