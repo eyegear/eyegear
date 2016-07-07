@@ -1,0 +1,38 @@
+.footer {
+        position: relative;
+        display: table;
+        width: 100%;
+        margin: 0 auto;
+        padding: 4em 0;
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.1);
+        text-transform: uppercase;
+        color: $white;
+        font-family: 'Six Caps';
+        font-size: 1em;
+        font-weight: 100;
+        font-style: normal;
+        line-height: 1.9em;
+        letter-spacing: 0.05em;
+	.background {
+		background-color: $desert-yellow;
+	}
+	.layer-2 {
+		position: relative;
+		z-index: 2;
+	}
+	.container {
+                position: relative;
+	        display: table-cell;
+                vertical-align: middle;
+                z-index: 3;
+                padding: 0 5%;
+                a {
+                        text-decoration: none;
+                        font-weight: 100;
+                        color: $white;
+                }
+                a:hover {
+                        color: $theme-dark;
+                }
+	}
+}
