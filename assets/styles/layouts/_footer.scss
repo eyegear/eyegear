@@ -41,7 +41,7 @@
 		.notice {
 			padding: 2em 0;
 		}
-		p, h2 {
+		p, h1, h2 {
 			font-family: 'Raleway';
 			font-weight: 100;
 			text-transform: lowercase;
@@ -50,7 +50,7 @@
 			strong {
 				font-weight: 900;
 				text-transform: uppercase;
-				color: rgba($theme-dark,1.0);
+				color: rgba($theme-dark,0.9);
 			}
 		}
 		a {
@@ -66,8 +66,13 @@
 			text-shadow: rgba($white,0.7);
 			transform: scale(0.9);
 		}
-	}
-	strong {
-		font-weight: 900;
+	        hr {
+	                max-width: 4em;
+	                border-color: $color-grey;
+	                border-width: 0.25em;
+	        }
+	        hr.light {
+	                border-color: $color-light;
+	        }
 	}
 }
