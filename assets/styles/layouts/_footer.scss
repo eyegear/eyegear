@@ -45,9 +45,12 @@
 			font-family: 'Raleway';
 			font-weight: 100;
 			text-transform: lowercase;
+			text-shadow: 1px 1px 1px rgba($white,0.4);
+			color: rgba($theme-dark,0.8);
 			strong {
 				font-weight: 900;
 				text-transform: uppercase;
+				color: rgba($theme-dark,1.0);
 			}
 		}
 		a {
