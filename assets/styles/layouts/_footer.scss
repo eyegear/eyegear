@@ -18,30 +18,30 @@
 				background-repeat: no-repeat;
 				background-position: 50%;
 	                        background-attachment: fixed;
-	                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/xango-zumbi-roda-800x1200px.jpeg);
+	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-stripes-800x1200px.jpeg");
 	                        @media (min-width: $mq-med) {
-	                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/calango-chama-formiguinha-2000x1350px.jpeg);
+	                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-birthday-2000x1350px.jpeg");
 	                        }
 	                        @include animation(fade-out 27s infinite both);
 	                }
 	                li:nth-child(2) {
-	                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/mestre-calango-atabaque-800x1200px.jpeg);
+	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-march-800x1200px.jpeg");
 	                        @media (min-width: $mq-med) {
-	                                background-image: $zumba-freeze-2000x1350px;
+	                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-bowtie-2000x1200px.jpeg");
 	                        }
 	                        @include animation-delay(18s);
 	                }
 	                li:nth-child(3) {
-	                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/segredo-calango-roda-800x1200px.jpeg);
+	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-microphone-800x1200px.jpeg");
 	                        @media (min-width: $mq-med) {
-	                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/formiguinha-calango-roda-2000x1300px.jpg);
+	                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-faded-2000x1000px.jpeg");
 	                        }
 	                        @include animation-delay(9s);
 	                }
 	                li:nth-child(4) {
-	                        background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/segredo-calango-roda-800x1200px.jpeg);
+	                        background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-smiles-800x1200px.jpeg");
 	                        @media (min-width: $mq-med) {
-	                                background-image: url(https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/formiguinha-calango-roda-2000x1300px.jpg);
+	                                background-image: url("https://s3.ap-northeast-2.amazonaws.com/eyegear/malcolm-x-ponders-2000x1000px.jpeg");
 	                        }
 	                        @include animation-delay(9s);
 	                }
