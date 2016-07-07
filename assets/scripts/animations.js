@@ -35,8 +35,7 @@
 
 
 	var brandtween = TweenMax.to('#animate-brand', 0.5, {
-		scale: 0.8,
-		autoAlpha: 0,
+		scaleY: 1.2,
 	});
 	var brandscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-scale",
