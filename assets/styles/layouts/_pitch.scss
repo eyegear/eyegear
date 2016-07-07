@@ -37,11 +37,8 @@
 		}
 		.pitch-text:hover {
 			color: rgba($white,1);
-			background-color: $theme-dark;
+			background-color: rgba($theme-dark,0.9);
 			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-		}
-		.padded {
-			padding: 2em 0;
 		}
 	}
 }
