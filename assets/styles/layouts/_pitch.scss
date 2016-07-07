@@ -2,7 +2,6 @@
 	position: relative;
 	display: table;
 	width: 100%;
-	min-height: 10em;
 	.container {
 		position: relative;
 		display: table-cell;
@@ -16,7 +15,7 @@
                         margin-top: 0;
                 }
 		.pitch-text {
-			display: inline-block;
+			margin: 5em auto;
 			font-family: 'Yanone Kaffeesatz';
 			font-weight: 700;
 			font-size: 2em;
