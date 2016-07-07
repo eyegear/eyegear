@@ -1,6 +1,6 @@
 <footer id="sitemap" class="footer">
-        <div class="container-fluid viewport">
-		<div class="second-layer viewport-centered padded">
+        <div class="container-fluid">
+		<div class="second-layer padded">
 			<div class="row">
 		                <div class="col-md-3">
 		                        <h2>Site <strong>Map</strong></h2>
