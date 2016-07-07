@@ -88,7 +88,6 @@
 	});
 	var slideuptween = TweenMax.from('#animate-social-h1', 0.5, {
 		y: "-20",
-		autoAlpha: 0,
 	});
 	var connectscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-flip",
