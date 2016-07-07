@@ -82,13 +82,13 @@
 
 
 	// Implement Social Animations when the DOM is ready
-	var fliptween = TweenMax.to('#animate-social-icons', 0.5, {
+	var fliptween = TweenMax.from('#animate-social-icons', 0.5, {
 		rotationX: -90,
 		scaleX: 0.8,
 	});
 	var connectscene = new ScrollMagic.Scene({
 		triggerElement: "#trigger-flip",
-		duration: 100 // Setting to 100 makes scrolling like scrubbing the animation over 100 pixels
+		duration: 200 // Setting to 200 makes scrolling like scrubbing the animation over 200 pixels
 	});
 	connectscene.setTween(fliptween);
 	connectscene.addTo(controller);
