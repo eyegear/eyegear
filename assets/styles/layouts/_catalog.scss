@@ -9,25 +9,19 @@
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px rgba($theme-dark, 0.3);
 	color: $theme-dark;
-	overflow: hidden;
-	perspective: 600;
         .container {
                 position: relative;
                 display: table-cell;
                 vertical-align: middle;
-                width: 400%; /* to contain 4 panels, each with 100% of window width */
-		height: 100%;
+                width: 100%;
+                z-index: 1;
                 background-color: rgba($desert-yellow, 0);
                 text-align: center;
-		.panel {
-			height: 100vh;
-			width: 100%; /* relative to parent -> 25% of 400% = 100% of window width */
-			float: left;
+                perspective: 600;
 		h1 {
 			position: relative;
 			width: 100%;
 			margin: auto;
-			transition: all 1s ease-out;
 		}
 		h1:hover {
 			transform: scale(1.2);
@@ -51,7 +45,6 @@
 		.catalog-image {
 			width: 80%;
 			margin: 0 auto;
-		}
 		}
         }
 }
