@@ -1,7 +1,7 @@
 .catalog {
         position: relative;
         display: table;
-        width: 400%; /* to contain 4 panels, each with 100% of window width */
+        width: 100%;
 	min-height: 100vh;
 	font-family: 'Ravi Prakash';
 	font-weight: 400;
@@ -15,12 +15,16 @@
                 position: relative;
                 display: table-cell;
                 vertical-align: middle;
-                width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+                width: 400%; /* to contain 4 panels, each with 100% of window width */
 		height: 100%;
                 z-index: 1;
                 background-color: rgba($desert-yellow, 0);
                 text-align: center;
-		float: left;
+		.panel {
+			height: 100%;
+			width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+			float: left;
+		}
 		h1 {
 			position: relative;
 			width: 100%;
