@@ -41,11 +41,13 @@
 				.button {
 					max-width: 50%;
 					margin: 0.2em auto;
-					padding: 0.1em;
+					padding: 0.2em;
 					font-family: 'Six Caps';
 					font-weight: 400;
 					font-size: 0.2em;
+					text-decoration: none;
 					border: 3px solid $theme-dark;
+					color: $theme-dark;
 		                        transition-property: all;
 		                        transition-duration: 1.8s;
 		                        transition-timing-function: ease-out;
