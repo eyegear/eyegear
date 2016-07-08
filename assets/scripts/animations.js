@@ -79,6 +79,35 @@
 
 
 
+	// Implement Catalog Animations when the DOM is ready
+	// Define movement of panels
+	var wipeAnimation = new TimelineMax()
+		// Animate to second panel
+		.to("#slideContainer", 0.5, {z: -150})		// move back in 3D space
+		.to("#slideContainer", 1,   {x: "-25%"})	// move in to first panel
+		.to("#slideContainer", 0.5, {z: 0})				// move back to origin in 3D space
+		// Animate to third panel
+		.to("#slideContainer", 0.5, {z: -150, delay: 1})
+		.to("#slideContainer", 1,   {x: "-50%"})
+		.to("#slideContainer", 0.5, {z: 0})
+		// Animate to forth panel
+		.to("#slideContainer", 0.5, {z: -150, delay: 1})
+		.to("#slideContainer", 1,   {x: "-75%"})
+		.to("#slideContainer", 0.5, {z: 0});
+
+	// create scene to pin and link animation
+	new ScrollMagic.Scene({
+			triggerElement: "#pinContainer",
+			triggerHook: "onLeave",
+			duration: "500%"
+		})
+			.setPin("#pinContainer")
+			.setTween(wipeAnimation)
+			.addIndicators() // add indicators (requires plugin)
+			.addTo(controller);
+	});
+
+
 
 
 	// Implement Horizontal Scroll when the DOM is ready

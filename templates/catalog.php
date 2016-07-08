@@ -1,7 +1,7 @@
 <section id="section-catalog" class="catalog">
 	<div class="container">
-		<div class="row viewport">
-			<div class="col-md-6 viewport-centered">
+		<div class="row">
+			<div class="col-md-6">
 					<h1>sun man</h1>
 			</div>
 			<div class="col-md-6 viewport-centered">
