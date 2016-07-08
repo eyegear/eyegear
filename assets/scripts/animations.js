@@ -83,25 +83,25 @@
 	// Define movement of panels
 	var wipeAnimation = new TimelineMax()
 		// Animate to second panel
-		.to("#slideContainer", 0.5, {z: -150})		// move back in 3D space
-		.to("#slideContainer", 1,   {x: "-25%"})	// move in to first panel
-		.to("#slideContainer", 0.5, {z: 0})				// move back to origin in 3D space
+		.to("#showcase-container", 0.5, {z: -150})		// move back in 3D space
+		.to("#showcase-container", 1,   {x: "-25%"})	// move in to first panel
+		.to("#showcase-container", 0.5, {z: 0})				// move back to origin in 3D space
 		// Animate to third panel
-		.to("#slideContainer", 0.5, {z: -150, delay: 1})
-		.to("#slideContainer", 1,   {x: "-50%"})
-		.to("#slideContainer", 0.5, {z: 0})
+		.to("#showcase-container", 0.5, {z: -150, delay: 1})
+		.to("#showcase-container", 1,   {x: "-50%"})
+		.to("#showcase-container", 0.5, {z: 0})
 		// Animate to forth panel
-		.to("#slideContainer", 0.5, {z: -150, delay: 1})
-		.to("#slideContainer", 1,   {x: "-75%"})
-		.to("#slideContainer", 0.5, {z: 0});
+		.to("#showcase-container", 0.5, {z: -150, delay: 1})
+		.to("#showcase-container", 1,   {x: "-75%"})
+		.to("#showcase-container", 0.5, {z: 0});
 
 	// create scene to pin and link animation
 	new ScrollMagic.Scene({
-			triggerElement: "#pinContainer",
+			triggerElement: "#section-catalog",
 			triggerHook: "onLeave",
 			duration: "500%"
 		})
-			.setPin("#pinContainer")
+			.setPin("#section-catalog")
 			.setTween(wipeAnimation)
 			.addIndicators() // add indicators (requires plugin)
 			.addTo(controller);
