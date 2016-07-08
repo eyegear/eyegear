@@ -83,7 +83,7 @@
 
 	// Implement Horizontal Scroll when the DOM is ready
 	var horizontalcontroller = new ScrollMagic.Controller({vertical: false});
-	var twirltween = TweenMax.from('#section-catalog', 0.5, { rotationY: 360, });
+	var twirltween = TweenMax.to('#animate-twirl', 0.5, { rotationY: 360, });
 	var showcasescene = new ScrollMagic.Scene({ triggerElement: "#trigger-twirl", duration: 900 });
 	showcasescene.setTween(twirltween);
 	showcasescene.addTo(horizontalcontroller);
