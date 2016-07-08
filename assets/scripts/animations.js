@@ -82,7 +82,7 @@
 
 
 	// Implement Horizontal Scroll when the DOM is ready
-	var twirltween = TweenMax.to('#animate-featured-image', 0.5, { rotationZ: 360, });
+	var twirltween = TweenMax.to('#animate-featured-image', 0.5, { scale: 0.9, });
 	var showcasescene = new ScrollMagic.Scene({ triggerElement: "#trigger-twirl", duration: 900 });
 	showcasescene.setTween(twirltween);
 	showcasescene.addTo(controller);
