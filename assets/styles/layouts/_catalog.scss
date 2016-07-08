@@ -1,7 +1,7 @@
 .catalog {
         position: relative;
         display: table;
-        width: 100%;
+        width: 400%; /* to contain 4 panels, each with 100% of window width */
 	min-height: 100vh;
 	font-family: 'Ravi Prakash';
 	font-weight: 400;
@@ -15,15 +15,12 @@
                 position: relative;
                 display: table-cell;
                 vertical-align: middle;
-                width: 400%; /* to contain 4 panels, each with 100% of window width */
+                width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
 		height: 100%;
                 z-index: 1;
                 background-color: rgba($desert-yellow, 0);
                 text-align: center;
-		.panel {
-			height: 100%;
-			width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
-			float: left;
+		float: left;
 		h1 {
 			position: relative;
 			width: 100%;
@@ -52,7 +49,6 @@
 		.catalog-image {
 			width: 80%;
 			margin: 0 auto;
-		}
 		}
         }
 }

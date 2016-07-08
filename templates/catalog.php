@@ -1,5 +1,5 @@
 <section id="section-catalog" class="catalog">
-	<div id="showcase" class="container">
+	<div id="showcase-container" class="container">
 				<div class="panel row">
 					<div class="col-md-6">
 							<h1>sun man</h1>
