@@ -81,14 +81,20 @@
 
 
 
+	// Implement Horizontal Scroll when the DOM is ready
+	var horizontalcontroller = new ScrollMagic.Controller({vertical: false});
+	var twirltween = TweenMax.from('#section-catalog', 0.5, { rotationY: 360, });
+	var showcasescene = new ScrollMagic.Scene({ triggerElement: "#trigger-twirl", duration: 900 });
+	showcasescene.setTween(twirltween);
+	showcasescene.addTo(horizontalcontroller);
+
+
+
+
+
 	// Implement Social Animations when the DOM is ready
 	var fliptween = TweenMax.from('#animate-social-icons', 0.5, { rotationX: -90, scaleX: 0.8, });
 	var connectscene = new ScrollMagic.Scene({ triggerElement: "#trigger-flip", duration: 200 });
 	connectscene.setTween(fliptween);
 	connectscene.addTo(controller);
-
-
-
-
-
 })();
