@@ -105,7 +105,6 @@
 			.setTween(wipeAnimation)
 			.addIndicators() // add indicators (requires plugin)
 			.addTo(controller);
-	});
 
 
 
