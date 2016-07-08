@@ -16,8 +16,9 @@
                 }
 		.pitch-text {
 			min-width: 50px;
-			margin: 0 auto;
-			padding: 1em;
+			max-width: 50%;
+			margin: 1em auto;
+			padding: 0 1em;
 			font-family: 'Yanone Kaffeesatz';
 			font-weight: 700;
 			font-size: 2em;
