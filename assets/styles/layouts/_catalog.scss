@@ -9,24 +9,17 @@
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px rgba($theme-dark, 0.3);
 	color: $theme-dark;
+	overflow: hidden;
+	perspective: 600;
         .container {
                 position: relative;
                 display: table-cell;
                 vertical-align: middle;
-                width: 100%;
+                width: 400%; /* to contain 4 panels, each with 100% of window width */
+		height: 100%;
                 z-index: 1;
                 background-color: rgba($desert-yellow, 0);
                 text-align: center;
-		.pin {
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			perspective: 1000;
-		}
-		.slide {
-			width: 400%; /* to contain 4 panels, each with 100% of window width */
-			height: 100%;
-		}
 		.panel {
 			height: 100%;
 			width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */

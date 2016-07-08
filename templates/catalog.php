@@ -1,7 +1,5 @@
 <section id="section-catalog" class="catalog">
-	<div class="container">
-		<div id="pinContainer" class="pin">
-			<div id="slideContainer" class="slide">
+	<div id="showcase" class="container">
 				<div class="panel row">
 					<div class="col-md-6">
 							<h1>sun man</h1>
@@ -46,7 +44,5 @@
 						</div>
 					</div>
 				</div>
-  			</div>
-  		</div>
   	</div>
 </section>
