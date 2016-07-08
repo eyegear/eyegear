@@ -21,7 +21,7 @@
                 text-align: center;
 		.panel {
 			height: 100%;
-			width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+			width: 100%; /* relative to parent -> 25% of 400% = 100% of window width */
 			float: left;
 		h1 {
 			position: relative;
