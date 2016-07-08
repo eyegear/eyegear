@@ -4,6 +4,7 @@
 			<div class="row">
 				<div class="col-md-6">
 						<h1>Black Sunglasses</h1>
+						<a class="button" src="#">Product Details</a>
 				</div>
 				<div class="col-md-6">
 					<div id="trigger-twirl" class="twirling-image"></div>
@@ -17,6 +18,7 @@
 			<div class="row">
 				<div class="col-md-6">
 						<h1>Silver Sunglasses</h1>
+						<a class="button" src="#">Product Details</a>
 				</div>
 				<div class="col-md-6">
 					<div id="trigger-twirl" class="twirling-image"></div>
@@ -30,11 +32,12 @@
 			<div class="row">
 				<div class="col-md-6">
 						<h1>Blue Sunglasses</h1>
+						<a class="button" src="#">Product Details</a>
 				</div>
 				<div class="col-md-6">
 					<div id="trigger-twirl" class="twirling-image"></div>
 	    				<div id="animate-featured-image">
-						<img id="featured-image" class="catalog-image" src="https://s3.ap-northeast-2.amazonaws.com/eyegear/ferrari-sunglasses-blue-1200x960px.jpg">
+						<img id="featured-image" class="catalog-image" src="https://s3.ap-northeast-2.amazonaws.com/eyegear/ferrari-sunglasses-blue-1200-960px.jpg">
 					</div>
 				</div>
 			</div>
@@ -43,6 +46,7 @@
 			<div class="row">
 				<div class="col-md-6">
 						<h1>Titanium Sunglasses</h1>
+						<a class="button" src="#">Product Details</a>
 				</div>
 				<div class="col-md-6">
 					<div id="trigger-twirl" class="twirling-image"></div>
