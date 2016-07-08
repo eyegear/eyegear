@@ -3,7 +3,9 @@
     		<div class="row">
 			<div id="trigger-flip" class="flip-animation"></div>
 			<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
-				<h1 id="animate-social-h1">connect</h1>
+				<div id="animate-social-heading">
+					<h1>connect</h1>
+				</div>
 				<p id="animate-social-icons" class="social-icons">
 					<span class="social-icon"><i class="fa fa-phone fa-3x"></i></span>
 					<span class="social-icon"><i class="fa fa-envelope-o fa-3x"></i></span>
